@@ -10,6 +10,7 @@ https://odonmovie.herokuapp.com/movie/{id}
 *Add movie
 https://odonmovie.herokuapp.com/movie
 Payload (JSON):
+
 {
    "title": "Fast & Furious 9",
    "plot": "Dom Toretto is living the quiet life off the grid with Letty and his son, but they know that danger always lurks just over the peaceful horizon",
@@ -30,5 +31,5 @@ https://odonmovie.herokuapp.com/movie/{id}
 *Search Movie
 https://odonmovie.herokuapp.com/search?title=[value]
 
-add headers [x-auth] : dhonadwi
+headers [Authorization] : dhonadwi
 
